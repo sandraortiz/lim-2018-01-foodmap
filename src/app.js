@@ -1,3 +1,10 @@
+
+
+// var container = document.getElementById('container');
+// setTimeout(function() {
+//     container.classList.add('cerrar');
+//   document.body.style.overflowY= "visible";// despueés de cargar le devolvemos el scroll
+// }, 9000);
 const nombrerestaurant = document.getElementById('name');
 window.onload = () => {
     initMap();
@@ -12,7 +19,7 @@ function initMap() {
         var myLatlng = new google.maps.LatLng(lat, lon);
         var mapOptions = {
             center: myLatlng,
-            zoom: 14,
+            zoom: 15,
             mapTypeId: google.maps.MapTypeId.SATELLITE
         };
         map = new google.maps.Map(document.getElementById("mapa"), mapOptions);
@@ -23,7 +30,7 @@ function initMap() {
         // Especificamos la localización, el radio y el tipo de lugares que queremos obtener
         var request = {
             location: myLatlng,
-            radius: 5000,
+            radius: 8000,
             types: ['restaurant']
         };
 
@@ -37,6 +44,7 @@ function initMap() {
                     crearMarcador(restaurantinfo);
                     //  restaurante (restaurantinfo);
     nombrerestaurant.innerText += restaurantinfo.name;
+    
                 }
             }
         });
@@ -54,8 +62,13 @@ function crearMarcador(place) {
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.setContent(place.name);
         infowindow.open(map, this);
+        if(place.photos)
+{
+alert(place.photos[0].getUrl({'maxWidth': 350, 'maxHeight': 350}));
+}
     });
 }
+
 
 // function restaurante (restaurantinfo) {
 // console.log(restaurantinfo);
