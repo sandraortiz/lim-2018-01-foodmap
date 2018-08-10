@@ -3,6 +3,8 @@ const restaurantsInformation = document.getElementById("restauranInformation");
  const restaurantsInformations = document.getElementById("hola");
 const restauranoptio = document.getElementById("restauranInformations" );
 const closemodal = document.getElementById("closemodal");
+const filters = document.getElementById("filterRestaurant");
+const option = document.getElementById("option");
 
  fetch('../data/restaurant.json')
     .then(response => response.json())
@@ -24,21 +26,11 @@ const closemodal = document.getElementById("closemodal");
              content.appendChild(espacio);
              content.appendChild(buttonres);
             restaurantsInformation.appendChild(content);
-
-          
-         
-
             buttonres.addEventListener('click', (evt) => {
               if (restaurant.id == evt.target.id) {
     const name = `${restaurant.name}`
     const lugar = `${restaurant.distrito}`
     restaurantsInformations.innerHTML = name + `<br>` +lugar
-          //  const contents = document.createElement('div');
-          //    const restaurantname = document.createElement('p');
-  
-          //    restaurantname.innerText = name
-          //    contents.appendChild(restaurantname)
-          //    restaurantsInformations.appendChild(contents);
                 restauranoptio.style.display = 'block'
                     closemodal.addEventListener('click', () => {
                       restauranoptio.style.display = 'none'
@@ -46,11 +38,29 @@ const closemodal = document.getElementById("closemodal");
                     })
                 }
             })
+            filter(restaurant);
         })
 
 
     })
-
+ 
+    const  filter = (restaurant) =>{
+filters.addEventListener('change' , () => {
+  const filtor = filters.value;
+  if(filtor === "Distrito")
+  {
+    filters.style.display = "none";
+// const select = document.createElement('select') 
+// option.appendChild(select);
+const optionSede = document.createElement('OPTION');
+option.style.display = 'block';
+const resdis = (restaurant.distrito).split('-',1)[0];
+    optionSede.innerHTML = resdis
+    console.log (optionSede);
+    option.appendChild(optionSede);
+  }
+})
+    }
 // const allRestaurant = () => {
 //     restaurants.forEach(restaurant => {
 //         restauranoptio.innerHTML +=
