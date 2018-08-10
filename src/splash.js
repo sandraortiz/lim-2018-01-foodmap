@@ -1,5 +1,5 @@
 window.onload =  () => {
-    window.setTimeout( 'web()' , 9000 )
+    window.setTimeout( 'web()' , 2000 )
 }
 // window.onload=timeout;
 // function timeout(){

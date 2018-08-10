@@ -1,8 +1,4 @@
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-    background-color:forestgreen; 
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
+body {
+    background-color: #d9d9d9
 }
+

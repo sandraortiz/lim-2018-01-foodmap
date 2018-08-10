@@ -2,14 +2,14 @@
     {
         "name": "Chili's",
         "image": "../restaurantImages/chilis.jpg",
-    
+        "id":"1",
         "type": "mexicana",
         "distrito": "Independencia"
     },
     {
         "name": "Como Agua para Chocolate",
         "image": "../restaurantImages/ComoAguaparaChocolate.jpg",
-        
+        "id":"2",
         "type": "mexicana",
         "distrito": "Comas"
     }
@@ -17,49 +17,43 @@
     {
         "name": "Restaurante Del Campo Chicken & Grill",
         "image": "../restaurantImages/delcampochicken.jpg",
-       
+        "id":"3",
         "type": "polleria",
         "distrito": "Miraflores"
     },
     {
         "name": "Donatello",
         "image": "../restaurantImages/donatello04.jpg",
-      
+        "id":"4",
         "type": "italiana",
         "distrito": "Miraflores"
     },
-    {
-        "name": "El Paraíso de la Salud",
-        "image": "../restaurantImages/elparadisodelasalud.jpg",
-     
-        "type": "vegana",
-        "distrito": "Barranco"
-    },
+   
     {
         "name": "Toshi Nikkei",
         "image": "../restaurantImages/toshinikkei.jpg",
-
+        "id":"6",
         "type": "japonesa",
         "distrito": "Barranco"
     },
     {
         "name": "Kinjo Ramen",
         "image": "../restaurantImages/kinjo.jpg",
- 
+        "id":"7",
         "type": "japonesa",
         "distrito": "Barranco"
     },
     {
         "name": "K'tana cocina japonesa",
         "image": "../restaurantImages/ktana.jpg",
-       
+        "id":"8",
         "type": "japonesa",
         "distrito": "Barranco"
     },
     {
         "name": "McDonald's",
         "image": "../restaurantImages/McDonald'sSurcoLimaPeru.jpg",
-       
+        "id":"9",
         "type": "fast food",
         "distrito": "Barranco"
     }
