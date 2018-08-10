@@ -2,15 +2,65 @@
     {
         "name": "Chili's",
         "image": "../restaurantImages/chilis.jpg",
-        "description": "Cadena apta para familias que ofrece alimentos estadounidenses y tex-mex en un ambiente sureño.",
+    
         "type": "mexicana",
         "distrito": "Independencia"
     },
     {
         "name": "Como Agua para Chocolate",
         "image": "../restaurantImages/ComoAguaparaChocolate.jpg",
-        "description": "Cadena apta para familias que ofrece alimentos estadounidenses y tex-mex en un ambiente sureño.",
+        
         "type": "mexicana",
         "distrito": "Comas"
+    }
+,
+    {
+        "name": "Restaurante Del Campo Chicken & Grill",
+        "image": "../restaurantImages/delcampochicken.jpg",
+       
+        "type": "polleria",
+        "distrito": "Miraflores"
+    },
+    {
+        "name": "Donatello",
+        "image": "../restaurantImages/donatello04.jpg",
+      
+        "type": "italiana",
+        "distrito": "Miraflores"
+    },
+    {
+        "name": "El Paraíso de la Salud",
+        "image": "../restaurantImages/elparadisodelasalud.jpg",
+     
+        "type": "vegana",
+        "distrito": "Barranco"
+    },
+    {
+        "name": "Toshi Nikkei",
+        "image": "../restaurantImages/toshinikkei.jpg",
+
+        "type": "japonesa",
+        "distrito": "Barranco"
+    },
+    {
+        "name": "Kinjo Ramen",
+        "image": "../restaurantImages/kinjo.jpg",
+ 
+        "type": "japonesa",
+        "distrito": "Barranco"
+    },
+    {
+        "name": "K'tana cocina japonesa",
+        "image": "../restaurantImages/ktana.jpg",
+       
+        "type": "japonesa",
+        "distrito": "Barranco"
+    },
+    {
+        "name": "McDonald's",
+        "image": "../restaurantImages/McDonald'sSurcoLimaPeru.jpg",
+       
+        "type": "fast food",
+        "distrito": "Barranco"
     }
 ]
