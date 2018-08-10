@@ -46,18 +46,22 @@ const option = document.getElementById("option");
  
     const  filter = (restaurant) =>{
 filters.addEventListener('change' , () => {
-  const filtor = filters.value;
+     const filtor = filters.value;
   if(filtor === "Distrito")
   {
+    option.style.display = 'block';
     filters.style.display = "none";
 // const select = document.createElement('select') 
 // option.appendChild(select);
 const optionSede = document.createElement('OPTION');
-option.style.display = 'block';
-const resdis = (restaurant.distrito).split('-',1)[0];
+
+const resdis = (restaurant.distrito)
     optionSede.innerHTML = resdis
     console.log (optionSede);
     option.appendChild(optionSede);
+option.addEventListener('change' , (evt) => {
+    
+} )
   }
 })
     }
