@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Chili's",
+        "image": "../restaurantImages/chilis.jpg",
+        "description": "Cadena apta para familias que ofrece alimentos estadounidenses y tex-mex en un ambiente sureño.",
+        "type": "mexicana",
+        "distrito": "Independencia"
+    },
+    {
+        "name": "Como Agua para Chocolate",
+        "image": "../restaurantImages/ComoAguaparaChocolate.jpg",
+        "description": "Cadena apta para familias que ofrece alimentos estadounidenses y tex-mex en un ambiente sureño.",
+        "type": "mexicana",
+        "distrito": "Comas"
+    }
+]

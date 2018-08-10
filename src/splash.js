@@ -6,6 +6,6 @@ window.onload =  () => {
 // window.setTimeout("redirect()",2000)}
 
 function web(){
-window.location="page.html"
+window.location="inde.html"
 return
 }
