@@ -3,7 +3,7 @@
         "name": "Chili's",
         "image": "../restaurantImages/chilis.jpg",
         "id":"1",
-        "type": "mexicana",
+        "type": "comida mexicana",
         "distrito": "Independencia"
     
     },
@@ -11,7 +11,7 @@
         "name": "Como Agua para Chocolate",
         "image": "../restaurantImages/ComoAguaparaChocolate.jpg",
         "id":"2",
-        "type": "mexicana",
+        "type": "comida mexicana",
         "distrito": "Comas"
     }
 ,
@@ -26,7 +26,7 @@
         "name": "Donatello",
         "image": "../restaurantImages/donatello04.jpg",
         "id":"4",
-        "type": "italiana",
+        "type": "comida italiana",
         "distrito": "Miraflores"
     },
    
@@ -34,21 +34,21 @@
         "name": "Toshi Nikkei",
         "image": "../restaurantImages/toshinikkei.jpg",
         "id":"6",
-        "type": "japonesa",
+        "type": "comida japonesa",
         "distrito": "Barranco"
     },
     {
         "name": "Kinjo Ramen",
         "image": "../restaurantImages/kinjo.jpg",
         "id":"7",
-        "type": "japonesa",
-        "distrito": "Barranco"
+        "type": "comida japonesa",
+        "distrito": "La Molina"
     },
     {
         "name": "K'tana cocina japonesa",
         "image": "../restaurantImages/ktana.jpg",
         "id":"8",
-        "type": "japonesa",
+        "type": "comida japonesa",
         "distrito": "Barranco"
     },
     {
